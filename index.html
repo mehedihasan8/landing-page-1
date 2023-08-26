@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              baskerville: ["Libre Baskerville", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#2c3e50] overflow-x-hidden">
+    <!-- hero section start here -->
+    <section
+      class="bg-[#556B2F] flex justify-center w-full mt-2 ml-2 border-l-4 border-b-4 border-l-[#FFCC00] border-b-[#BBA326]"
+    >
+      <div>
+        <h1
+          class="text-3xl font-semibold text-[#FFCC00] pt-8 text-center italic font-baskerville"
+        >
+          VINCENT VAN GOGH
+        </h1>
+        <p class="text-lg text-center py-5 text-[#EAC006] font-Optima">
+          The tortured artist
+        </p>
+        <img
+          src="https://artoferickuns.files.wordpress.com/2016/12/vincent-eyes-for-blog.jpg"
+          alt="img"
+          class="h-44 pb-6"
+          srcset=""
+        />
+      </div>
+    </section>
+    <!-- hero section end here -->
+
+    <!-- banner section start here  -->
+
+    <section class="max-w-md mx-auto pt-8">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vincent_van_Gogh_-_s0273V1962_-_Van_Gogh_Museum.jpg/1024px-Vincent_van_Gogh_-_s0273V1962_-_Van_Gogh_Museum.jpg"
+      />
+      <p class="text-center py-5 text-[#EAC006] font-Optima">
+        A painting of Van Gogh by the Australian artist John Peter Russell, 1886
+      </p>
+    </section>
+    <!-- banner section end here  -->
+  </body>
+</html>
